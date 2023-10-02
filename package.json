@@ -13,8 +13,8 @@
     "start": "webpack serve",
     "format": "prettier --write .",
     "lint": "eslint . & stylelint **/*.scss --fix",
-    "deploy": "gh-pages -d build",
-    // "predeploy": "npm run build"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build:dev"
   },
   "author": "",
   "license": "ISC",
