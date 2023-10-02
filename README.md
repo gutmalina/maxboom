@@ -1,80 +1,17 @@
-# maxboom_frontend
+# Frontend часть проекта для онлайн магазина MAXBOOM (на стадии разработки)
 
-Frontend часть проекта для сайта maxboom. Онлайн магазин, который является объединением магазинов с wildberries
+<p padding="0" align="center">~~~~~~~~~~</p>
+<a  href="https://gutmalina.github.io/maxboom/" target="_blank" align="center"><img src="./src/assets/images/videogift.gif" width="100%" alt="Демо"></a>
+<p padding="0" align="center">~~~~~~~~~~</p>
 
-## Стек:
+### Стэк:
+* React
+* React-Router V6
+* TypeScript
+* Redux-Toolkit
+* Axios
+* API Wildberries
+* SCSS module
 
-- React
-- TypeScript
-- react-router-dom v6
-- Redux Toolkit
-- Axios
-- SCSS module
-
-## Работа с git:
-
-1. Участник клонирует проект
-2. Устанавливает зависимости по инструкции
-3. Создаёт ветку с нужным префиксом (см. ниже)
-4. Комитит изменения, в начале названия комита пишет номер задачи который он
-   решает со знака #, например `#21-create-Button-component`
-5. По окончанию работы над задачей делает Pull Request
-6. После этого проходит кросс-ревью
-7. В конце код в PR проверяется лидом или ответственным за релиз, после чего,
-   если все ок и нет замечаний, **лид делает
-   squash коммитов и мерджит в master-ветку**
-8. **Без согласования с лидом самостоятельно PR не мерджим, в master не пушим**
-
-Пример именования ветки: `enhancement-14-index-page`
-
-- enhancement - префикс
-- 14 - id задачи
-- index-page - краткое описание
-
-Если задача не заведена, то вид ветки следующий: `enhancement/index-page`.
-Опускается id, префикс и описание разделяются косой чертой.
-
-## Префиксы:
-
-- **build**: изменение, связанное со сборкой проекта
-- **bug**: исправление ошибок, багов
-- **deprecation**: убираем легаси
-- **development**: разработка новой фичи/компонента
-- **documentation**: документация
-- **enhancement**: улучшение, доработки уже существующей фичи
-- **maintenance**: всякий техдолг (рефакторинг, опечатки и т.д.)
-- **revert**: откат на раннюю реализацию
-- **style**: исправления по код-стайлу без изменения функционала (пробел, PEP8)
-- **test**: добавление или изменение тестов
-
-## Как запускать?
-
-1. Убедитесь что у вас установлен `node`
-2. Выполните команду `npm install`
-
-## Запуск Devserver
-
-`npm run start`
-
-## Линтинг eslint и stylelint
-
-`npm run lint`
-
-## Форматирование prettier
-
-`npm run format`
-
-## Production build
-
-`npm run build:prod`
-
-
-## Хуки
-
-В проекте используется [lefthook](https://github.com/evilmartians/lefthook)
-Если очень-очень нужно пропустить проверки, используйте `--no-verify`
-
-## Environment
-
-Шаблон переменных находится в файле .env.sample
-Создайте файл .env в корне проекта и скопируйте туда переменные.
+### Ссылки:
+* :mag_right: [Открыть проект](https://gutmalina.github.io/maxboom/)
